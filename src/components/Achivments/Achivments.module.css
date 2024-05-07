@@ -1,0 +1,146 @@
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+}
+.description{
+    font-size: 1rem;
+    font-family:"HeeboR";
+    text-align: center;
+    width:70%;
+    margin:0 auto;
+}
+.icon{
+    width:100px;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+}
+
+@media only screen and (max-width: 350px) {
+
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:4% auto;
+        width:250px;
+    }
+    .description{
+        font-size: 1rem;
+        font-family:"HeeboR";
+        text-align: center;
+        width:95%;
+        margin:0 auto;
+    }
+    .icon{
+        width:50px;
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+    }
+
+}
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:4% auto;
+        width:320px;
+    }
+    .description{
+        font-size: 1rem;
+        font-family:"HeeboR";
+        text-align: center;
+        width:95%;
+        margin:0 auto;
+    }
+    .icon{
+        width:80px;
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+    }
+
+}
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:3% auto;
+        width:350px;
+    }
+    .description{
+        font-size: 1rem;
+        font-family:"HeeboR";
+        text-align: center;
+        width:75%;
+        margin:0 auto;
+    }
+    .icon{
+        width:80px;
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+    }
+
+}
+@media only screen and (min-width: 550px) and (max-width: 650px) {
+
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:3% auto;
+        width:380px;
+    }
+    .description{
+        font-size: 1rem;
+        font-family:"HeeboR";
+        text-align: center;
+        width:75%;
+        margin:0 auto;
+    }
+    .icon{
+        width:100px;
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+    }
+
+}
+@media only screen and (min-width: 650px) and (max-width: 850px) {
+
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:3% auto;
+        width:400px;
+    }
+    .description{
+        font-size: 0.9rem;
+        font-family:"HeeboR";
+        text-align: center;
+        width:75%;
+        margin:0 auto;
+    }
+    .icon{
+        width:100px;
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+    }
+
+}

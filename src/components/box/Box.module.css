@@ -1,0 +1,27 @@
+.box{
+height:300px;
+width:300px;
+box-shadow: 0 0 6px 1px rgb(0, 0, 0);
+
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+background: linear-gradient(135deg, rgba(146,91,34,1) 0%, rgba(255,195,158,1) 50%, rgba(107,56,9,1) 100%);
+clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+.option {
+    font-size:3.5rem;
+    font-family: "Horev";
+    width:60%;
+    position: absolute;
+    top:40%;
+    display: flex;
+    left: 50%;
+    align-items: center;
+    transform: translate(-50%, -50%); /* Center the element */
+    border-radius: 20px;
+    padding:3px;
+
+    justify-content: center;
+    text-align: center;
+  }
