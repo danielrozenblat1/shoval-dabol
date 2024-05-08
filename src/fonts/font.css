@@ -13,7 +13,7 @@
   @font-face {
     font-family: 'HeeboR';
     src: url('./Heebo-VariableFont_wght.ttf') format('truetype');
-    font-weight: 300 ;
+    font-weight: light ;
     font-style: normal;
   }
   @font-face {
