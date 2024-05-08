@@ -27,7 +27,7 @@ const What=(props)=>{
             </div>
             <div className={styles.left}>
                 <h1 className={styles.title} itemProp="name">{props.title}</h1>
-                <h2 className={styles.description} itemProp="description">{props.description}</h2>
+                <div className={styles.description} itemProp="description">{props.description}</div>
             </div>
             <div className={styles.right}>
                 <img className={styles.image} src={props.src} alt="שובל דעבול" itemProp="image" />

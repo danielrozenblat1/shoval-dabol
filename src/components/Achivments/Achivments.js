@@ -52,9 +52,9 @@ return     <>
     <div className={styles.icon}>
       <Player ref={playerRef1} size="100%" onComplete={handleComplete} icon={medal} />
     </div>
-    <h2 className={styles.description} itemProp="description">
+    <div className={styles.description} itemProp="description">
       {props.achivment}
-    </h2>
+    </div>
   </div>
 </div>
 </>
