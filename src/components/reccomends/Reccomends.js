@@ -81,7 +81,14 @@ const Reccomends=()=>{
   };
       //  window.innerWidth < 550 ? 1 : (window.innerWidth <550 && window.innerWidth< 850) ? 2 : 5,
     const content = [
-
+      {
+        type: 'image',
+        src: result7,
+      },
+      {
+        type: 'image',
+        src: result46,
+      },
       {
         type: 'image',
         src: result14,
@@ -122,10 +129,7 @@ const Reccomends=()=>{
             type: 'image',
             src: result6,
           },
-          {
-            type: 'image',
-            src: result7,
-          },
+       
           {
             type: 'image',
             src: result8,
@@ -277,10 +281,7 @@ const Reccomends=()=>{
             type: 'image',
             src: result45,
           },
-          {
-            type: 'image',
-            src: result46,
-          },
+       
           {
             type: 'image',
             src: result47,
