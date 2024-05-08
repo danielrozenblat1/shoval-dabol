@@ -16,3 +16,9 @@
     font-weight: 300 ;
     font-style: normal;
   }
+  @font-face {
+    font-family: 'Heebo';
+    src: url('./Heebo-VariableFont_wght.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }

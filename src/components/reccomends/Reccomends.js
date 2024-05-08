@@ -66,6 +66,7 @@ const Reccomends=()=>{
 
 
 
+
   const sliderSettings = {
     dots: false,
     infinite: true,
@@ -76,10 +77,24 @@ const Reccomends=()=>{
     slidesToScroll: window.innerWidth < 550 ? 1 :
                     window.innerWidth <= 850 ? 2 :
                     window.innerWidth <= 1050 ? 3 : 5,
-};
+                    height: "auto"
+  };
       //  window.innerWidth < 550 ? 1 : (window.innerWidth <550 && window.innerWidth< 850) ? 2 : 5,
     const content = [
-  
+
+      {
+        type: 'image',
+        src: result14,
+      },
+      {
+        type: 'image',
+        src: result3,
+      }, 
+      
+      {
+        type: 'image',
+        src: result9,
+      },
         {
           type: 'image',
           src: result,
@@ -94,10 +109,7 @@ const Reccomends=()=>{
             type: 'image',
             src: result2,
           },
-          {
-            type: 'image',
-            src: result3,
-          },
+    
           {
             type: 'image',
             src: result4,
@@ -118,10 +130,7 @@ const Reccomends=()=>{
             type: 'image',
             src: result8,
           },
-          {
-            type: 'image',
-            src: result9,
-          },
+        
           {
             type: 'image',
             src: result10,
