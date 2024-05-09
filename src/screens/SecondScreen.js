@@ -21,6 +21,7 @@ const SecondScreen=()=>{
         description="מתבצע באופן טלפוני /כתוב / פרונטלי מגיע עם מידע מקיף אודותייך + מענה על 4 שאלות"
         src={clinic2}
         itemScope
+        message="היי שובל, אשמח לשמוע עוד על ייעוץ ממוקד של 30 דקות באמצעות הנומורולוגיה"
         itemType="https://schema.org/Service"
       />
       <What
@@ -28,12 +29,14 @@ const SecondScreen=()=>{
         description="מתבצע באופן טלפוני /כתוב / פרונטלי מגיע עם מידע מקיף אודותייך + מענה על 4 שאלות"
         src={clinic}
         itemScope
+        message="היי שובל, אשמח לשמוע עוד על ייעוץ משולב באמצעות הנומורולוגיה + טארוט"
         itemType="https://schema.org/Service"
       />
       <What
         title="מפה כתובה - נומורולוגיה"
         description="מענה על עד 10 שאלות  + ניתוח מקיף ומלא על האישיות שלך- מגיע באופן כתוב"
         src={clinic4}
+        message="היי שובל, אשמח לשמוע עוד על קבלת מפה כתובה - נומורולוגיה"
         itemScope
         itemType="https://schema.org/Service"
       />
@@ -41,6 +44,7 @@ const SecondScreen=()=>{
         title="שיחה פרונטלית של 60 דקות"
         description="מענה על עד 10 שאלות + ניתוח מקיף ומלא על האישיות שלך + מפה שמגיעה באופן כתוב"
         src={nomorology}
+        message="היי שובל, אשמח לשמוע עוד על המסלול של שיחה פרונטלית של 60 דקות"
         itemScope
         itemType="https://schema.org/Service"
       />
@@ -48,6 +52,7 @@ const SecondScreen=()=>{
         title="טיפול תטא הילינג"
         description="טיפול משולב - טארוט + תטא הילינג - לאחר סשן עוצמתי ומדוייק נסיים בהכוונה באמצעות קלפי הטארוט - מענה על 4 שאלות"
         src={clinic3}
+        message="היי שובל, אשמח לשמוע עוד על טיפול תטא הילינג"
         itemScope
         itemType="https://schema.org/Service"
       />
@@ -55,6 +60,7 @@ const SecondScreen=()=>{
         title="טיפול משולב נומורולוגיה + תטא הילינג"
         description="לפני הגעתך לטיפול אני חוקרת אודות המפה הנומורולוגית שלך + מעבר יחד איתך על המפה שלך + סשן טיפול בתת המודע"
         src={teta}
+        message="היי שובל, אשמח לשמוע עוד על טיפול משולב נומורולוגיה + תטא הילינג"
         itemScope
         itemType="https://schema.org/Service"
       />

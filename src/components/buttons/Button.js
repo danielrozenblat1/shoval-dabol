@@ -3,12 +3,23 @@ import styles from './Button.module.css';
 
 const UiverseButton = () => {
 
-    const whatsAppHandler=()=>{
+  const handleButtonClick = () => {
+    const phoneNumber = "+972509796362";
+    // Set the message content
+    const message ="היי שובל ,אני רוצה לשמוע ממך עוד על..";
 
-    }
+    // Encode the message for the URL
+    const encodedMessage = encodeURIComponent(message);
+    // Construct the WhatsApp message URL with phone number and message
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+  
+    // Open the URL in a new tab
+    window.open(whatsappURL, "_blank");
+
+  };
     
   return (
-    <button className={styles.uiverse} onClick={whatsAppHandler}>
+    <button className={styles.uiverse} onClick={handleButtonClick}>
       <div className={styles.wrapper}>
         <span>שובל,בואי נדבר</span>
         <div className={`${styles.circle} ${styles.circle12}`}></div>

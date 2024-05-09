@@ -332,7 +332,7 @@ const Reccomends=()=>{
 
  
 return <>
-<div className={styles.title}>איך ? ככה !</div>
+<div className={styles.title} id="לקוחות ממליצות">איך ? ככה !</div>
 
 
 <div className={styles.sliderContainer}>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from './NavBar.module.css';
  import logo from "../../images/shoval.png"
 import {Link as ScrollLink} from "react-scroll"
+import UiverseButton from '../buttons/Button';
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -42,7 +43,8 @@ const NavBar = () => {
       <nav className={scrolled ? styles.floatingNav :styles.navbar}>
         <div className={styles.logoContainer}>
           <div className={styles.logo}>
-            <img className={styles.image} src={logo} alt="שובל דעבול לוגו"/>
+            {/* <img className={styles.image} src={logo} alt="שובל דעבול לוגו"/> */}
+            <UiverseButton/>
           </div>
         </div>
        {width<850 && <div className={styles.hamburger} onClick={toggleMenu}>
