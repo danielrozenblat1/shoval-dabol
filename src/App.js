@@ -11,6 +11,8 @@ import Box from './components/box/Box';
 import SecondScreen from './screens/SecondScreen';
 import ThirdScreen from './screens/ThirdScreen';
 import BasicAccordion from './components/question/Akordion';
+import From from './components/from me/From';
+import From2 from './components/from me/From2';
 
 
 function App() {
@@ -45,8 +47,10 @@ function App() {
 <When/>
 <SecondScreen/>
 <ThirdScreen/>
-<BasicAccordion/>
 
+<BasicAccordion/>
+{/* <From/> */}
+<From2/>
   </> 
 }
 
