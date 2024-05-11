@@ -13,6 +13,7 @@ import ThirdScreen from './screens/ThirdScreen';
 import BasicAccordion from './components/question/Akordion';
 import From from './components/from me/From';
 import From2 from './components/from me/From2';
+import ByMe from './components/ByMe/ByMe';
 
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
 <BasicAccordion/>
 {/* <From/> */}
 <From2/>
+<ByMe/>
   </> 
 }
 
