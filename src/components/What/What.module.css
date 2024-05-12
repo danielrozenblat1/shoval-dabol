@@ -48,14 +48,14 @@ flex:1;
 
 }
 .title{
-    font-family: "Horev";
-    font-size: 2.5rem;
+    font-family: "Heebo";
+    font-size: 1.5rem;
     text-align: right;
     margin:0 2% auto 0;
 }
 .description{
     font-family: "HeeboR";
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: right;
     direction: rtl;
     margin:0 2% auto 0;
@@ -106,7 +106,7 @@ flex:1;
     inset 0 0 30px rgba(249, 38, 249, 0.8);
     cursor: pointer;
     font-family: "Heebo";
-    font-size: 12px;
+    font-size: 11px;
     outline: none;
     transition: all ease 1s;
     }
@@ -124,15 +124,15 @@ flex:1;
     
     }
     .title{
-        font-family: "Horev";
-        font-size: 1.4rem;
+        font-family: "Heebo";
+        font-size: 0.8rem;
         text-align: right;
         margin:0 2% auto 0;
     
     }
     .description{
         font-family: "HeeboR";
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         text-align: right;
         direction: rtl;
  
@@ -205,15 +205,15 @@ flex:1;
     
     }
     .title{
-        font-family: "Horev";
-        font-size: 1.5rem;
+        font-family: "Heebo";
+        font-size: 0.8rem;
         text-align: right;
         margin:0 2% auto 0;
     
     }
     .description{
         font-family: "HeeboR";
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         text-align: right;
         direction: rtl;
  
@@ -285,15 +285,15 @@ flex:1;
     
     }
     .title{
-        font-family: "Horev";
-        font-size: 1.7rem;
+        font-family: "Heebo";
+        font-size: 0.85rem;
         text-align: right;
         margin:0 2% auto 0;
     
     }
     .description{
         font-family: "HeeboR";
-        font-size: 0.85rem;
+        font-size: 0.8rem;
         text-align: right;
         direction: rtl;
  
@@ -368,15 +368,15 @@ flex:1;
     
     }
     .title{
-        font-family: "Horev";
-        font-size: 1.8rem;
+        font-family: "Heebo";
+        font-size: 0.9rem;
         text-align: right;
         margin:0 2% auto 0;
     
     }
     .description{
         font-family: "HeeboR";
-        font-size: 1rem;
+        font-size: 0.85rem;
         text-align: right;
         direction: rtl;
  
@@ -447,15 +447,15 @@ flex:1;
     
     }
     .title{
-        font-family: "Horev";
-        font-size: 2rem;
+        font-family: "Heebo";
+        font-size: 1rem;
         text-align: right;
         margin:0 2% auto 0;
     
     }
     .description{
         font-family: "HeeboR";
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         text-align: right;
         direction: rtl;
  
@@ -526,15 +526,15 @@ flex:1;
     
     }
     .title{
-        font-family: "Horev";
-        font-size: 2rem;
+        font-family: "Heebo";
+        font-size: 1.2rem;
         text-align: right;
         margin:0 2% auto 0;
     
     }
     .description{
         font-family: "HeeboR";
-        font-size: 1.1rem;
+        font-size: 1rem;
         text-align: right;
         direction: rtl;
  
@@ -606,15 +606,15 @@ flex:1;
     
     }
     .title{
-        font-family: "Horev";
-        font-size: 2.3rem;
+        font-family: "Heebo";
+        font-size: 1.25rem;
         text-align: right;
         margin:0 2% auto 0;
     
     }
     .description{
         font-family: "HeeboR";
-        font-size: 1.2rem;
+        font-size:1rem;
         text-align: right;
         direction: rtl;
  
@@ -624,8 +624,8 @@ flex:1;
         object-fit: cover;
         border-radius: 50%;
      
-        height: 90px;
-        width:90px;
+        height: 100px;
+        width:100px;
       
     }
 

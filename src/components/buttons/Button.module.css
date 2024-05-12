@@ -26,10 +26,10 @@
     /* Adjust the width */
     width: 200px; /* Adjust as needed */
  
-    font-family: "Horev";
+    font-family: "Assistant";
     text-align: center;
-    font-weight: 600;
-    font-size: 30px;
+ 
+    font-size: 18px;
     color: var(--c-color);
     background: radial-gradient(circle, var(--c-radial-inner), var(--c-radial-outer) 80%);
     box-shadow: 0 0 14px var(--c-shadow);
