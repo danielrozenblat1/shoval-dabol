@@ -1,0 +1,380 @@
+.center{
+    width:30%;
+    display: flex;
+    margin:2% auto;
+    justify-content: center;
+}
+.centerFixed{
+    width:30%;
+    display: flex;
+    margin:2% auto;
+    justify-content: center;
+    margin-top:80px;
+}
+.image{
+    object-fit: contain;
+    height:100%;
+}
+.title{
+    font-family: "Heebo";
+    font-size: 5rem;
+    text-align: center;
+    margin:1% auto;
+}
+.job{
+    font-family: "Carmela";
+    font-size: 2.5rem;
+    text-align: center;
+    direction: rtl;
+    width:60%;
+    margin:0 auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:2% auto;
+}
+.quate{
+    font-family: "HeeboR";
+    font-size: 1.2rem;
+    text-align: center;
+    direction: rtl;
+    margin:2% auto;
+    width:40%;
+}
+@media only screen and (max-width: 350px) {
+    .center{
+        width:30%;
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+    .centerFixed{
+        width:30%;
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+        margin-top:80px;
+    }
+    .image{
+        object-fit: contain;
+       height:150px;
+    }
+    .title{
+        font-family: "Heebo";
+        font-size: 3rem;
+        text-align: center;
+        margin:1% auto;
+    }
+    .job{
+        font-family: "Carmela";
+        font-size: 1.4rem;
+        text-align: center;
+        direction: rtl;
+        width:95%;
+        margin:2% auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin:2% auto;
+    }
+    .quate{
+        font-family: "HeeboR";
+        font-size:0.9rem;
+        text-align: center;
+        direction: rtl;
+        margin:2% auto;
+        width:90%;
+    }
+}
+@media only screen  and (min-width: 350px) and (max-width: 450px) {
+    .center{
+        width:30%;
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+    .centerFixed{
+        width:30%;
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+        margin-top:80px;
+    }
+    .image{
+        object-fit: contain;
+       height:180px;
+    }
+    .title{
+        font-family: "Heebo";
+        font-size:3.1rem;
+        text-align: center;
+        margin:0 auto;
+    }
+    .job{
+        font-family: "Carmela";
+        font-size: 1.4rem;
+        text-align: center;
+        direction: rtl;
+        margin:0 auto;
+        width:95%;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin:2% auto;
+    }
+    .quate{
+        font-family: "HeeboR";
+        font-size:1rem;
+        text-align: center;
+        direction: rtl;
+        margin:2% auto;
+        width:90%;
+    }
+}
+
+@media only screen  and (min-width: 450px) and (max-width: 550px) {
+    .center{
+        width:30%;
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+    .centerFixed{
+        width:30%;
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+        margin-top:80px;
+    }
+    .image{
+        object-fit: contain;
+       height:200px;
+    }
+    .title{
+        font-family: "Heebo";
+        font-size: 3.2rem;
+       
+        text-align: center;
+        margin:0 auto;
+    }
+    .job{
+        font-family: "Carmela";
+        font-size: 1.6rem;
+        text-align: center;
+        direction: rtl;
+        width:85%;
+        margin:0 auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin:2% auto;
+    }
+    .quate{
+        font-family: "HeeboR";
+        font-size:1.1rem;
+        text-align: center;
+        direction: rtl;
+        margin:2% auto;
+        width:90%;
+    }
+}
+@media only screen  and (min-width: 550px) and (max-width: 650px) {
+    .center{
+        width:30%;
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+    .centerFixed{
+        width:30%;
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+        margin-top:80px;
+    }
+    .image{
+        object-fit: contain;
+       height:200px;
+    }
+    .title{
+        font-family: "Heebo";
+        font-size: 3.6rem;
+       
+        text-align: center;
+        margin:0 auto;
+    }
+    .job{
+        font-family: "Carmela";
+        font-size: 1.7rem;
+        text-align: center;
+        direction: rtl;
+        width:85%;
+        margin:0 auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin:2% auto;
+    }
+    .quate{
+        font-family: "HeeboR";
+        font-size:1rem;
+        text-align: center;
+        direction: rtl;
+        margin:2% auto;
+        width:90%;
+    }
+}
+@media only screen  and (min-width: 650px) and (max-width: 850px) {
+    .center{
+        width:30%;
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+    .centerFixed{
+        width:30%;
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+        margin-top:80px;
+    }
+    .image{
+        object-fit: contain;
+       height:200px;
+    }
+    .title{
+        font-family: "Heebo";
+        font-size: 3.8rem;
+       
+        text-align: center;
+        margin:0 auto;
+    }
+    .job{
+        font-family: "Carmela";
+        font-size: 1.8rem;
+        text-align: center;
+        direction: rtl;
+        width:85%;
+        margin:0 auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin:2% auto;
+    }
+    .quate{
+        font-family: "HeeboR";
+        font-size:1.1rem;
+        text-align: center;
+        direction: rtl;
+        margin:2% auto;
+        width:90%;
+    }
+}
+@media only screen  and (min-width: 850px) and (max-width: 1050px) {
+    .center{
+        width:30%;
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+    .centerFixed{
+        width:30%;
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+        margin-top:80px;
+    }
+    .image{
+        object-fit: contain;
+       height:200px;
+    }
+    .title{
+        font-family: "Heebo";
+        font-size: 4rem;
+       
+        text-align: center;
+        margin:0 auto;
+    }
+    .job{
+        font-family: "Carmela";
+        font-size:2rem;
+        text-align: center;
+        direction: rtl;
+        width:85%;
+        margin:0 auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin:2% auto;
+    }
+    .quate{
+        font-family: "HeeboR";
+        font-size:1.2rem;
+        text-align: center;
+        direction: rtl;
+        margin:2% auto;
+        width:90%;
+    }
+}
+@media only screen  and (min-width: 1050px) and (max-width: 1250px) {
+    .center{
+        width:30%;
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+    .centerFixed{
+        width:30%;
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+        margin-top:80px;
+    }
+    .image{
+        object-fit: contain;
+       height:200px;
+    }
+    .title{
+        font-family: "Heebo";
+        font-size: 4.2rem;
+       
+        text-align: center;
+        margin:0 auto;
+    }
+    .job{
+        font-family: "Carmela";
+        font-size:2.2rem;
+        text-align: center;
+        direction: rtl;
+        width:85%;
+        margin:0 auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin:2% auto;
+    }
+    .quate{
+        font-family: "HeeboR";
+        font-size:1.25rem;
+        text-align: center;
+        direction: rtl;
+        margin:2% auto;
+        width:90%;
+    }
+}

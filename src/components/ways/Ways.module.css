@@ -1,0 +1,7 @@
+.flower {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, rgba(146,91,34,1) 0%, rgba(255,195,158,1) 50%, rgba(107,56,9,1) 100%);
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+
+  }

@@ -1,0 +1,212 @@
+.title{
+    font-family: "Heebo";
+    font-size: 2.5rem;
+    text-align: center;
+    margin:2% auto;
+    direction: rtl;
+}
+.icon{
+    display: flex;
+    margin:2% auto;
+    justify-content: center;
+    width:25%;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2% auto;
+    direction: rtl;
+}
+.description{
+    font-family: "HeeboR";
+    font-size: 1.2rem;
+    direction: rtl;
+    text-align: center;
+    margin:2% auto;
+    width:70%;
+}
+@media only screen and (max-width: 350px) {
+
+    .title{
+        font-family: "Heebo";
+        font-size:2rem;
+        text-align: center;
+        margin:2% auto;
+    }
+    .description{
+        font-family: "HeeboR";
+        font-size: 0.9rem;
+        text-align: center;
+        margin:2% auto;
+        width:85%;
+    }
+    .icon{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+        width:80%;
+    }
+
+}
+@media only screen  and (min-width: 350px) and (max-width: 450px) {
+
+    .title{
+        font-family: "Heebo";
+        font-size:1.8rem;
+        text-align: center;
+        margin:2% auto;
+   
+    }
+    .description{
+        font-family: "HeeboR";
+        font-size: 1rem;
+        text-align: center;
+        margin:2% auto;
+        width:80%;
+    }
+    .icon{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+        width:75%;
+    }
+
+}
+@media only screen  and (min-width: 450px) and (max-width: 550px) {
+
+    .title{
+        font-family: "Heebo";
+        font-size:2.5rem;
+        text-align: center;
+        margin:2% auto;
+    }
+    .description{
+        font-family: "HeeboR";
+        font-size: 1.05rem;
+        text-align: center;
+        margin:2% auto;
+        width:80%;
+    }
+
+    .icon{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+        width:50%;
+    }
+}
+@media only screen  and (min-width: 550px) and (max-width: 650px) {
+
+    .title{
+        font-family: "Heebo";
+        font-size:2.5rem;
+        text-align: center;
+        margin:2% auto;
+    }
+    .description{
+        font-family: "HeeboR";
+        font-size: 1.1rem;
+        text-align: center;
+        margin:2% auto;
+        width:75%;
+    }
+    .icon{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+        width:45%;
+    }
+}
+@media only screen  and (min-width: 650px) and (max-width: 750px) {
+
+    .title{
+        font-family: "Heebo";
+        font-size:2.6rem;
+        text-align: center;
+        margin:2% auto;
+    }
+
+    .description{
+        font-family: "HeeboR";
+        font-size: 1.15rem;
+        text-align: center;
+        margin:2% auto;
+        width:70%;
+    }
+    .icon{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+        width:50%;
+    }
+}
+
+@media only screen  and (min-width: 750px) and (max-width: 850px) {
+
+    .title{
+        font-family: "Heebo";
+        font-size:2.8rem;
+        text-align: center;
+        margin:2% auto;
+    }
+    .description{
+        font-family: "HeeboR";
+        font-size: 1.2rem;
+        text-align: center;
+        margin:2% auto;
+        width:60%;
+    }
+    .icon{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+        width:45%;
+    }
+}
+@media only screen  and (min-width: 850px) and (max-width:1050px) {
+
+    .title{
+        font-family: "Heebo";
+        font-size:3rem;
+        text-align: center;
+        margin:2% auto;
+    }
+    .description{
+        font-family: "HeeboR";
+        font-size: 1.1rem;
+        text-align: center;
+        margin:2% auto;
+        width:60%;
+    }
+    .icon{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+        width:40%;
+    }
+}
+@media only screen  and (min-width: 1050px) and (max-width:1250px) {
+
+    .title{
+        font-family: "Heebo";
+        font-size:3.2rem;
+        text-align: center;
+        margin:2% auto;
+    }
+    .description{
+        font-family: "HeeboR";
+        font-size: 1.15rem;
+        text-align: center;
+        margin:2% auto;
+        width:70%;
+    }
+    .icon{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+        width:35%;
+    }
+
+}

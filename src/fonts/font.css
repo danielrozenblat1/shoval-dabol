@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Horev';
+    src: url('./Horev\ CLM\ Heavy.ttf') format('truetype');
+    font-weight:900 ;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Carmela';
+    src: url('./carmela.ttf') format('truetype');
+    font-weight: bold ;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'HeeboR';
+    src: url('./Heebo-VariableFont_wght.ttf') format('truetype');
+    font-weight: light ;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Heebo';
+    src: url('./Heebo-VariableFont_wght.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Assistant';
+    src: url('./Assistant-VariableFont_wght.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
