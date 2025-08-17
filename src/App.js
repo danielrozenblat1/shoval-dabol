@@ -15,6 +15,7 @@ import From from './components/from me/From';
 import From2 from './components/from me/From2';
 import ByMe from './components/ByMe/ByMe';
 import ForthScreen from './screens/ForthScreen';
+import PrivacyPolicy from './components/privacy/Privacy';
 
 
 function App() {
@@ -53,6 +54,12 @@ function App() {
 <BasicAccordion/>
 {/* <From/> */}
 <From2/>
+<PrivacyPolicy 
+  ownerName="שובל דעבול" 
+  email="Shovalda595@gmail.com" 
+  phone="050-979-6362" 
+  domain="https://shovaldabol.co.il/" 
+/>
 <ByMe/>
   </> 
 }
